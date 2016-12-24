@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.synics.MainActivity">
+
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/synics"
+        android:textSize="45sp"
+        android:paddingLeft="32dp"
+        android:background="@color/background"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="32dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="32dp"
+        android:background="@color/background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/searchicon"
+            android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/search_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:text="Search similar music"
+        android:background="#FFFFFF"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:layout_height="wrap_content"
+        android:text="@string/the_purpose_of_this_app_is_to_find_songs_that_are_similar_to_the_users_favorite_song_this_activity_is_where_the_user_will_enter_what_their_favorite_song_is"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="@color/second_background"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/search_music_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/serachicon180"
+        android:background="@color/second_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"
+            android:text="@string/search_for_similar_music"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mini_player_home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@drawable/structural24"/>
+    <LinearLayout
+        android:id="@+id/mini_player"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Song Name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Artist"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_gravity="right"
+            android:src="@drawable/play48"/>
+
+    </LinearLayout>
+
+</LinearLayout>

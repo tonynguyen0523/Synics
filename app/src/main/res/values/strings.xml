@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Synics</string>
+    <string name="synics">Synics</string>
+    <string name="search_for_similar_music">Search for similar music!</string>
+    <string name="similar_results_of">Similar Results of</string>
+    <string name="similar_results">Similar Results</string>
+    <string name="music_player">Music Player</string>
+    <string name="this_activity_is_where_the_song_they_selected_from_the_results_page_will_play_will_be_using_the_mediaplayer_class_to_implement_the_play_music_functionality">This activity is where the song they selected from the results page will play. Will be using the MediaPlayer class to implement the play music functionality.</string>
+    <string name="this_activity_will_appear_when_the_use_clicks_on_the_shopping_cart_in_the_music_player_this_activyt_is_used_to_purchase_the_selected_music">This activity will appear when the use clicks on the shopping cart in the music player. This activyt is used to purchase the selected music.</string>
+    <string name="purchase_music_page">Purchase Music Page</string>
+    <string name="this_activity_is_where_the_user_will_be_presented_with_the_results">This activity is where the user will be presented with the results.</string>
+    <string name="this_activity_will_appear_if_the_user_clicks_on_the_artist_name_in_the_music_player_this_page_will_show_all_the_songs_created_by_this_artist">This activity will appear if the user clicks on the artist name in the music player. This page will show all the songs created by this artist.</string>
+    <string name="the_purpose_of_this_app_is_to_find_songs_that_are_similar_to_the_users_favorite_song_this_activity_is_where_the_user_will_enter_what_their_favorite_song_is">The purpose of this app is to find songs that are similar to the users favorite song. This activity is where the user will enter what their favorite song is.</string>
+</resources>
